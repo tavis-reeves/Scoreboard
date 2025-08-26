@@ -1,0 +1,46 @@
+body {
+    margin: 30;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: Verdana;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+h1 {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F94F6D;
+    background-color: black;
+    border-radius: 15px;
+}
+
+button {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 8px;
+}
