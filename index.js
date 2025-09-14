@@ -1,12 +1,12 @@
 let points = 0
     let homePoints = points
-    let guestPoints = points
+    let awayPoints = points
 
 let homeScoreEl = document.getElementById("homeScoreEl")
-let guestScoreEl = document.getElementById("guestScoreEl")
+let awayScoreEl = document.getElementById("awayScoreEl")
 
 homeScoreEl.textContent = 0
-guestScoreEl.textContent = 0
+awayScoreEl.textContent = 0
 
 
 function plusOneHome() {
@@ -27,21 +27,21 @@ function plusThreeHome() {
     console.log(homePoints)
 }
 
-function plusOneGuest() {
-    guestPoints += 1
-    guestScoreEl.textContent = guestPoints
-    console.log(guestPoints)
+function plusOneAway() {
+    awayPoints += 1
+    awayScoreEl.textContent = awayPoints
+    console.log(awayPoints)
 }
 
-function plusTwoGuest() {
-    guestPoints += 2
-    guestScoreEl.textContent = guestPoints
-    console.log(guestPoints)
+function plusTwoAway() {
+    awayPoints += 2
+    awayScoreEl.textContent = awayPoints
+    console.log(awayPoints)
 }
 
-function plusThreeGuest() {
-    guestPoints += 3
-    guestScoreEl.textContent = guestPoints
-    console.log(guestPoints)
+function plusThreeAway() {
+    awayPoints += 3
+    awayScoreEl.textContent = awayPoints
+    console.log(awayPoints)
     
 }
